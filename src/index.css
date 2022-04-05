@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backgroundProperty{
+    background: linear-gradient(91.25deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.2) 99.82%);
+    
+}
+
+.anotherBackgroundProperty{
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.2) 99.82%);
+
+}
+
+
+.headingBg{
+    background: linear-gradient(90.21deg, #7DD3FC -31.83%, #3B82F6 118.09%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+/* text-fill-color: transparent; */
+}
+
+.btnBg{
+    background: linear-gradient(90.21deg, #7DD3FC -31.83%, #3B82F6 118.09%);
+
+}
+
+.gradientColours{
+    background: linear-gradient(91.25deg, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0.36) 99.82%)
+}
+
+.pinkBg{
+    background: linear-gradient(87.04deg, #E879F9 2.97%, #C084FC 92.51%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.greenBg{
+    
+background: linear-gradient(270.18deg, #4ADE80 -14.87%, #2DD4BF 109.18%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+/* text-fill-color: transparent; */
+
+
+}
+
+.pinkBg{
+    background: linear-gradient(94.32deg, #FFAEC1 7.45%, #FF7293 56.78%, #FF3565 101.22%), linear-gradient(90.2deg, #FFE57F 0.7%, #FF7170 99.33%), linear-gradient(87.04deg, #E879F9 2.97%, #C084FC 92.51%)
+}
